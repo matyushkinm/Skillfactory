@@ -1,0 +1,9 @@
+- hosts: matyushkin
+  become: true
+  tasks:
+    - name: Installing cmatrix
+      apt: pkg=cmatrix state=present
+    - name: Installing cowsay
+      apt: pkg=cowsay state=present
+    - name: Installing sl 
+      apt: pkg=sl state=present

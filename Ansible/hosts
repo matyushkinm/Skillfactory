@@ -1,0 +1,2 @@
+[matyushkin]
+172.21.52.119 ansible_ssh_user=test ansible_sudo_pass=1234qwer
